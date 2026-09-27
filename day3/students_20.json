@@ -1,0 +1,142 @@
+[
+    {
+        "Name": "Alex",
+        "Age": 20,
+        "Course": "BCA",
+        "Marks": 85,
+        "Attendance": 92
+    },
+    {
+        "Name": "Honey",
+        "Age": 21,
+        "Course": "BCA",
+        "Marks": 92,
+        "Attendance": 95
+    },
+    {
+        "Name": "Curran",
+        "Age": 20,
+        "Course": "BCA",
+        "Marks": 76,
+        "Attendance": 88
+    },
+    {
+        "Name": "John",
+        "Age": 22,
+        "Course": "BCA",
+        "Marks": 88,
+        "Attendance": 90
+    },
+    {
+        "Name": "Chris",
+        "Age": 23,
+        "Course": "BCA",
+        "Marks": 95,
+        "Attendance": 97
+    },
+    {
+        "Name": "Rahul",
+        "Age": 21,
+        "Course": "BCA",
+        "Marks": 68,
+        "Attendance": 82
+    },
+    {
+        "Name": "Priya",
+        "Age": 20,
+        "Course": "BCA",
+        "Marks": 91,
+        "Attendance": 94
+    },
+    {
+        "Name": "Aman",
+        "Age": 22,
+        "Course": "BCA",
+        "Marks": 73,
+        "Attendance": 85
+    },
+    {
+        "Name": "Neha",
+        "Age": 21,
+        "Course": "BCA",
+        "Marks": 89,
+        "Attendance": 91
+    },
+    {
+        "Name": "Arjun",
+        "Age": 23,
+        "Course": "BCA",
+        "Marks": 64,
+        "Attendance": 78
+    },
+    {
+        "Name": "Simran",
+        "Age": 20,
+        "Course": "BCA",
+        "Marks": 96,
+        "Attendance": 98
+    },
+    {
+        "Name": "Karan",
+        "Age": 22,
+        "Course": "BCA",
+        "Marks": 81,
+        "Attendance": 89
+    },
+    {
+        "Name": "Anjali",
+        "Age": 21,
+        "Course": "BCA",
+        "Marks": 78,
+        "Attendance": 86
+    },
+    {
+        "Name": "Rohan",
+        "Age": 23,
+        "Course": "BCA",
+        "Marks": 87,
+        "Attendance": 93
+    },
+    {
+        "Name": "Pooja",
+        "Age": 20,
+        "Course": "BCA",
+        "Marks": 93,
+        "Attendance": 96
+    },
+    {
+        "Name": "Vikas",
+        "Age": 22,
+        "Course": "BCA",
+        "Marks": 70,
+        "Attendance": 80
+    },
+    {
+        "Name": "Sneha",
+        "Age": 21,
+        "Course": "BCA",
+        "Marks": 84,
+        "Attendance": 90
+    },
+    {
+        "Name": "Aditya",
+        "Age": 23,
+        "Course": "BCA",
+        "Marks": 79,
+        "Attendance": 87
+    },
+    {
+        "Name": "Meera",
+        "Age": 20,
+        "Course": "BCA",
+        "Marks": 90,
+        "Attendance": 94
+    },
+    {
+        "Name": "Varun",
+        "Age": 22,
+        "Course": "BCA",
+        "Marks": 66,
+        "Attendance": 76
+    }
+]
