@@ -8,11 +8,11 @@ students = pd.DataFrame({
 })
 
 # Question1:- find the shape, ndim, size, column, index
-# print("shape=", students.shape)
-# print("\nDimension=", students.ndim)
-# print("\nSize=", students.size)
-# print("\ncolumns=", students.columns)
-# print("\nIndex=", students.index)
+print("shape=", students.shape)
+print("\nDimension=", students.ndim)
+print("\nSize=", students.size)
+print("\ncolumns=", students.columns)
+print("\nIndex=", students.index)
 
 # Question2:- create employee dataframe and check the datatype of each column
 
@@ -24,16 +24,16 @@ employee = {
 }
 
 df = pd.DataFrame(employee)
-# print(df)
+print(df)
 
-# print(df.dtypes)
+print(df.dtypes)
 
 # Question3:- Find the info of the students dataframe
-# print(students.info())
+print(students.info())
 
 # Question4:- make the series and describe it
 series = pd.Series([65, 72, 80, 91, 88, 76, 95])
-# print(series.describe())
+print(series.describe())
 
 # Question5:- AI/ML Dataset
 data = {
