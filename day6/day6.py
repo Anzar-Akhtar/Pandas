@@ -8,14 +8,14 @@ students = pd.DataFrame({
     "Attendance": [92, 95, 88, 90, 97]
 })
 
-# print(students)
+print(students)
 
 # Adding new cloumns to the DataFrame
 students["Passed"] = students["Marks"] >= 45
-# print(students)
+print(students)
 
 students["Country"] = "India"
-print(students)
+# print(students)
 
 # Existing column se new column create karna
 students["Bonus"] = students["Marks"] + 5
