@@ -8,21 +8,21 @@ students = pd.DataFrame({
     "Attendance": [92, 95, 88, 90, 97]
 })
 
-# print(students)
+print(students)
 
 # Question1:- add the passed column to the DataFrame
 students["Passed"] = students["Marks"] >= 45
-# print(students)
+print(students)
 
 # Question2:- Add the bonus column
 students["Bonus"] = students["Marks"] + 5
-# print(students)
+print(students)
 
 # Question3:- Add the performance column in which calculate average using marks & attendance
 students["Performance"] = (
     students["Marks"] + students["Attendance"]
 ) / 2
-# print(students)
+print(students)
 
 # Question4:- Renaming
 students.rename(
