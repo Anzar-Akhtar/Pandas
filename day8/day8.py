@@ -14,34 +14,34 @@ print()
 
 # sort_values() ka use kisi column ke according rows ko arrange karne ke liye hota hai.
 # ascending order
-# print(df.sort_values("Marks"))
+print(df.sort_values("Marks"))
 
 # descending order
-# print(df.sort_values("Marks", ascending=False))
+print(df.sort_values("Marks", ascending=False))
 
 # multiple column sorting
-# print(
-#     df.sort_values(
-#         ["Age", "Marks"]
-#     )
-# )
+print(
+    df.sort_values(
+        ["Age", "Marks"]
+    )
+)
 
 # Different order for different columns
-# print(
-#     df.sort_values(
-#         ["Age", "Marks"],
-#         ascending=[True, False]
-#     )
-# )
+print(
+    df.sort_values(
+        ["Age", "Marks"],
+        ascending=[True, False]
+    )
+)
 
 # Agar original data frame ko change karna hai to use (inplace=True)
 
 # sort_index() row index ke according sorting karta hai.
-# print(df.sort_index(ascending=False))
+print(df.sort_index(ascending=False))
 
 # rank():- is used to give the ranking to the students
 df["Rank"] = df["Rank"] = df["Marks"].rank(ascending=False).astype(int)
-# print(df[["Name", "Marks", "Rank"]])
+print(df[["Name", "Marks", "Rank"]])
 
 df2 = pd.DataFrame({
     "Name": ["Alex", "Honey", "John", "Chris"],
@@ -50,12 +50,12 @@ df2 = pd.DataFrame({
 
 # same marks hone par ranking
 df2["Rank"] = df["Marks"].rank(ascending=False)
-# print(df2)
+print(df2)
 
 # Ranking Methods
 # (avg)
 df2["Rank"] = df2["Marks"].rank(ascending=False, method="average")
-# print(df2)
+print(df2)
 
 # (min)
 df2["Rank"] = df2["Marks"].rank(ascending=False, method="min")
