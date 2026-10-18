@@ -1,7 +1,5 @@
 import pandas as pd
 
-import pandas as pd
-
 employees = pd.DataFrame({
     "Name": [" alex ", "HONEY", "curran", "John Smith", "Chris"],
     "Department": ["IT", "finance", "IT", "Networking", "Finance"],
