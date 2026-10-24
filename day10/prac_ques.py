@@ -35,3 +35,5 @@ employees["clean_name"] = employees["Name"].str.strip()
 print(employees["clean_name"])
 
 # Question3:- filter gmail users.
+employees["clean_email"] = employees["Email"].str.strip()
+print(employees["clean_email"])
