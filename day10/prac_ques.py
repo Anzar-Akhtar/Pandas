@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-employees = pd.DataFrame({
+employees = pd.DataFrame1({
     "Employee_ID": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110],
     "Name": [
         " alex ", "HONEY", "curran ", "JOHN SMITH", " chris",
@@ -37,3 +37,4 @@ print(employees["clean_name"])
 # Question3:- filter gmail users.
 employees["clean_email"] = employees["Email"].str.strip()
 print(employees["clean_email"])
+
