@@ -38,3 +38,16 @@ print(employees["clean_name"])
 employees["clean_email"] = employees["Email"].str.strip()
 print(employees["clean_email"])
 
+# Question4:- Display employees whose email contains Gmail
+gmail_employees = employees[
+    employees["Email"].str.contains(
+        "gmail", case=False, na=False
+    )
+]
+print(gmail_employees)
+
+# Question5:- Standardize department names
+employees["Department"] = (
+    employees["Department"].str.strip().str.upper()
+)
+print(employees[["Name", "Department"]])
