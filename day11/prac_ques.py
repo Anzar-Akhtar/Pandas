@@ -45,5 +45,5 @@ latest_employees = employees2.sort_values(
     ascending=False
 )
 
-print("Employee Joining Date Analysis:")
+print("Employee Joining Date Analysis:\n")
 print(latest_employees)
