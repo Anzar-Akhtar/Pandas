@@ -12,18 +12,18 @@ df2 = pd.DataFrame({
 
 # Ques1:- combine two dataframe vertically
 result = pd.concat([df1, df2])
-# print(result)
+print(result)
 
 # Q2. Combine two DataFrames horizontally using axis=1
 result2 = pd.concat([df1, df2], axis=1)
-# print(result2)
+print(result2)
 
 # Q3. Combine two DataFrames and reset the index
 result3 = pd.concat(
     [df1, df2],
     ignore_index=True
 )
-# print(result3)
+print(result3)
 
 students = pd.DataFrame({
     "Student_ID": [101, 102, 103, 104],

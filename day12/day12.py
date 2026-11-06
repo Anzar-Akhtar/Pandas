@@ -13,10 +13,10 @@ df2 = pd.DataFrame({
 })
 
 result = pd.concat([df1, df2])
-# print(result)
+print(result)
 
 result2 = pd.concat([df1, df2], ignore_index=True)
-# print(result2)
+print(result2)
 
 # pd.merge() – Common column ke basis par combine
 students = pd.DataFrame({
@@ -29,7 +29,7 @@ marks = pd.DataFrame({
     "Marks": [85, 90, 88, 75]
 })
 res = pd.merge(students, marks, on="Student_ID")
-# print(res)
+print(res)
 
 # .join() – Index ke basis par combine
 df3 = pd.DataFrame({

@@ -101,7 +101,7 @@ date3 = pd.to_datetime(
 # print(date3.isnull())
 
 clean_dates = dates2.dropna()
-# print(clean_dates)
+print(clean_dates)
 
 
 # Mini - Project
