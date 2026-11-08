@@ -7,7 +7,9 @@ data = pd.DataFrame({
 })
 
 print(data)
+
 print(data.duplicated())
+
 print(data.duplicated().sum())
 
 # drop_duplicates() – Duplicate records remove karna
@@ -28,6 +30,7 @@ print(data.dtypes)
 
 data["Age"] = data["Age"].astype(int)
 data["Marks"] = data["Marks"].astype(int)
+
 print(data.dtypes)
 
 
@@ -39,6 +42,7 @@ data2 = pd.DataFrame({
 })
 
 print(data2)
+
 data2["Department"] = data2["Department"].replace({
     "ai" : "AI",
     "Artificial Intelligence": "AI"
