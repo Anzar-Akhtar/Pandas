@@ -75,4 +75,5 @@ data3["Gender"] = data3["Gender"].replace({
     "M": "Male",
     "F": "Female"
 })
+
 print(data3)
