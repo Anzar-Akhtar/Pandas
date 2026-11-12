@@ -7,6 +7,5 @@ data = {
     "Age": [20, 21, 22],
     "Marks": [80, 90, 75]
 }
-
 df = pd.DataFrame(data)
 print(df)
