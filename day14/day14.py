@@ -8,28 +8,28 @@ data = pd.DataFrame({
     "Experience": [3, 2, 5, 2, 4, 1, 3, 4]
 })
 
-# print(data)
+print(data)
 
 # groupby():-Maan lo tumhe har department ki average salary calculate karni hai.
 
 res = data.groupby("Department")["Salary"].mean()
-# print(res)
+print(res)
 
 # agg() – Multiple calculations at once
 res2 = data.groupby("Department")["Salary"].agg(
     ["mean", "max", "min", "sum"]
 )
-# print(res2)
+print(res2)
 
 res3 = data.groupby("Department").agg({
     "Salary": ["mean", "max"],
     "Experience": ["mean", "max"],
     "Name": "count"
 })
-# print(res3)
+print(res3)
 
 # value_counts() – Frequency count karna
-# print(data["Department"].value_counts())
+print(data["Department"].value_counts())
 
 # pivot_table() – Summary table banana
 res4 = pd.pivot_table(
@@ -39,7 +39,7 @@ res4 = pd.pivot_table(
     columns="Gender",
     aggfunc="mean"
 )
-# print(res4)
+print(res4)
 
 # apply() – Custom operations perform karna
 def salary_category(salary):
